@@ -3,29 +3,27 @@
 @{
     ViewData["Title"] = "Home page";
 }
+<html>
 <head>
-    <link rel="stylesheet" href="lib\bootstrap\dist\css\MainStyleSheet.css">
+    <link rel="stylesheet" href="MainStyleSheet.css">
 </head>
 <body>
-    <div class="text-center">
-        <h1 class="display-4">Welcome</h1>
-        <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-1">
-                Column
-            </div>
-            <div class="col-10">
-                <ul>
-                    <li>Concert lijst item</li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
-            <div class="col-1">
-                Column
-            </div>
+<div>
+    <div class="row">
+        <div class="col-2">
+            Column
+        </div>
+        <div class="col-8">
+            <partial name="Shared/TicketList_Item" />
+            <partial name="Shared/TicketList_Item" />
+            <partial name="Shared/TicketList_Item" />
+            <partial name="Shared/TicketList_Item" />
+            <partial name="Shared/TicketList_Item" />
+        </div>
+        <div class="col-2">
+            Column
         </div>
     </div>
+</div>
 </body>
+</html>
