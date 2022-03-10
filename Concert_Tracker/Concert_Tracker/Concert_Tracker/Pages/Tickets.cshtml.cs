@@ -11,6 +11,7 @@ namespace Concert_Tracker.Pages
     {
         public void OnGet()
         {
+            
         }
     }
 }

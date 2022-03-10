@@ -3,3 +3,9 @@
     width: 100%;
     height: 100px;
 }
+
+.MerchItem {
+    margin: 20px;
+    min-height: 200px;
+    min-width: 200px
+}
